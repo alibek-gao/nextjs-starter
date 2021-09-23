@@ -4,16 +4,17 @@ const projects = [
     name: 'React',
     path: 'facebook/react',
     slug: 'facebook-react',
+    description: 'test react',
   },
-  { id: 'vue', name: 'Vue', path: 'vuejs/vue', slug: 'vuejs-vue' },
+  {id: 'vue', name: 'Vue', path: 'vuejs/vue', slug: 'vuejs-vue', description: 'test vue',},
   {
     id: 'svelte',
     name: 'Svelte',
     path: 'sveltejs/svelte',
     slug: 'sveltejs-svelte',
   },
-  { id: 'next', name: 'Next.js', path: 'zeit/next.js', slug: 'zeit-nextjs' },
-  { id: 'nuxt', name: 'Nuxt.js', path: 'nuxt/nuxt.js', slug: 'nuxt-nuxtjs' },
+  {id: 'next', name: 'Next.js', path: 'zeit/next.js', slug: 'zeit-nextjs'},
+  {id: 'nuxt', name: 'Nuxt.js', path: 'nuxt/nuxt.js', slug: 'nuxt-nuxtjs'},
   {
     id: 'gatsby',
     name: 'Gatsby',
@@ -22,4 +23,4 @@ const projects = [
   },
 ];
 
-module.exports = { projects };
+module.exports = {projects};
